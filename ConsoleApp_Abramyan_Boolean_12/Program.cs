@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp_Abramyan_Boolean_02
+namespace ConsoleApp_Abramyan_Boolean_12
 {
     class Program
     {
@@ -19,18 +19,18 @@ namespace ConsoleApp_Abramyan_Boolean_02
             Console.SetWindowSize(120, 30);
 
             ConsoleColor tmp_color = Console.ForegroundColor;
-            
-            Console.WriteLine("\n\n\n\n\tBoolean 02");
+
+            Console.WriteLine("\n\n\n\n\tBoolean 12");
             Console.WriteLine(
 @"
 ***************************************************************************************************
 
-        Boolean2–. Дано целое число A. Проверить истинность высказывания: 
-«Число A является нечетным».
+        Boolean12–. Даны три целых числа: A, B, C. Проверить истинность высказывания: 
+«Каждое из чисел A, B, C положительное».
 
 ***************************************************************************************************");
 
-            int a;
+            int a,b,c;
 
             bool repeat = true;
             while (repeat)
@@ -40,10 +40,10 @@ namespace ConsoleApp_Abramyan_Boolean_02
 
                 for (; ; )
                 {
-                    Console.Write("Input integer number: ");
-                    if (int.TryParse(Console.ReadLine(), out a) && a > 0)
+                    Console.Write("Input three integer number: ");
+                    if (int.TryParse(Console.ReadLine(), out a) && int.TryParse(Console.ReadLine(), out b) && int.TryParse(Console.ReadLine(), out c))
                     {
-                        Console.WriteLine("Number is " + ((a%2==1)?"odd":"even"));
+                        Console.WriteLine("All number is positiv: " + (a>0 && b>0 && c>0));
                         break;
                     }
                     else

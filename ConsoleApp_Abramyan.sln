@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_Abramyan_Integer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_Abramyan_Boolean_02", "ConsoleApp_Abramyan_Boolean_02\ConsoleApp_Abramyan_Boolean_02.csproj", "{F6691477-8E26-47A2-B125-538B1734B0E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_Abramyan_Boolean_12", "ConsoleApp_Abramyan_Boolean_12\ConsoleApp_Abramyan_Boolean_12.csproj", "{421277FF-E84C-4702-9F41-1AA93C43E0C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F6691477-8E26-47A2-B125-538B1734B0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6691477-8E26-47A2-B125-538B1734B0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6691477-8E26-47A2-B125-538B1734B0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421277FF-E84C-4702-9F41-1AA93C43E0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421277FF-E84C-4702-9F41-1AA93C43E0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421277FF-E84C-4702-9F41-1AA93C43E0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421277FF-E84C-4702-9F41-1AA93C43E0C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
